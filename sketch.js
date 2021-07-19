@@ -20,7 +20,7 @@ function setup() {
    paper1= new Paper(200,200,200,200)
 	
 
-	Engine.run(engine);
+	//Engine.run(engine);
   
 }
 
@@ -28,7 +28,8 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
-  engine.update(engine)
+  //engine.update(engine)
+	Engine.update(engine)
   
   paper1.display()
 
