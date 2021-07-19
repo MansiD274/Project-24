@@ -6,7 +6,7 @@ class Paper {
           density:1.2,
           isStatic:false
       }
-      this.body = Bodies.eclipse(x, y, 50,50);
+      this.body = Bodies.circle(x, y, 50,50);
       this.width = 50;
       this.height = 50;
       
@@ -15,7 +15,7 @@ class Paper {
 
     display(){
       var pos =this.body.position;
-      eclipse(pos.x,pos.y,this.width,this.height)
+      ellipse(pos.x,pos.y,this.width,this.height)
     }
     
 }
